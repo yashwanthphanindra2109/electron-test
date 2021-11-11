@@ -4,7 +4,9 @@ import { Text, View } from "react-native";
 export default function Dashboard() {
   return (
     <View>
-      <Text>Hello World!</Text>
+      <Text style={{ fontFamily: "Montserrat", fontSize: 28 }}>
+        Hello World!
+      </Text>
     </View>
   );
 }

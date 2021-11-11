@@ -1,4 +1,3 @@
-import { Feather, Ionicons } from "@expo/vector-icons";
 import * as Font from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import * as React from "react";
@@ -15,12 +14,14 @@ export default function useCachedResources() {
           SplashScreen.preventAutoHideAsync();
         } // Load fonts
         await Font.loadAsync({
-          ...Ionicons.font,
-          ...Feather.font,
-          "Roboto-Bold": require("../assets/fonts/Roboto-Bold.ttf"),
-          "Roboto-Light": require("../assets/fonts/Roboto-Light.ttf"),
-          "Roboto-Medium": require("../assets/fonts/Roboto-Medium.ttf"),
-          "Roboto-Regular": require("../assets/fonts/Roboto-Regular.ttf"),
+          "Roboto-Light":
+            "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2",
+          "Roboto-Regular":
+            "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2",
+          "Roboto-Medium":
+            "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2",
+          "Roboto-Bold":
+            "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service

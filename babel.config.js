@@ -7,7 +7,7 @@ module.exports = function (api) {
       [
         "babel-plugin-inline-import",
         {
-          extensions: [".svg"],
+          extensions: [".svg", ".ttf"],
         },
       ],
       [

@@ -18,5 +18,6 @@ web-build/
 # Expo Web
 /web-build/*
 # electron-webpack
+/electron
 /dist
 # @end @expo/electron-adapter

@@ -15,7 +15,7 @@ export default function useCachedResources() {
         } // Load fonts
         await Font.loadAsync({
           "Roboto-Light":
-            "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2",
+            "https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoCxCvjvWyNPYZvg7UI.woff2",
           "Roboto-Regular":
             "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2",
           "Roboto-Medium":
